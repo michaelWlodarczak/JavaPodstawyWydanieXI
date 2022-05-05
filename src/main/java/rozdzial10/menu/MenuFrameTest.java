@@ -1,20 +1,18 @@
-package rozdzial10.slider;
+package rozdzial10.menu;
 
-import rozdzial10.comboBox.ComboBoxFrame;
+import rozdzial10.slider.SliderFrameIcon;
 
 import javax.swing.*;
 import java.awt.*;
 
-public class SliderFrameTest {
+public class MenuFrameTest {
     public static void main(String[] args) {
 
         EventQueue.invokeLater(() -> {
-//            var frame = new SliderFrame();
-            var frame = new SliderFrameIcon();
-            frame.setTitle("Slider Frame");
+            var frame = new MenuFrame();
+            frame.setTitle("Menu Frame");
             frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
             frame.setVisible(true);
         });
     }
 }
-
