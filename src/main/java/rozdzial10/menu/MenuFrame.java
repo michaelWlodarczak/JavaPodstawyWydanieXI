@@ -71,11 +71,11 @@ public class MenuFrame extends JFrame {
 
         //Ikony
         var cutAction = new TestAction("Cut");
-        cutAction.putValue(Action.SMALL_ICON, new ImageIcon("cut.gif"));
+        cutAction.putValue(Action.SMALL_ICON, new ImageIcon("C:\\Users\\user\\IdeaProjects\\JavaPodstawyWydanieXI\\src\\main\\java\\rozdzial10\\menu\\cut.jpg"));
         var copyAction = new TestAction("Copy");
-        copyAction.putValue(Action.SMALL_ICON, new ImageIcon("copy.gif"));
+        copyAction.putValue(Action.SMALL_ICON, new ImageIcon("C:\\Users\\user\\IdeaProjects\\JavaPodstawyWydanieXI\\src\\main\\java\\rozdzial10\\menu\\copy.jpg"));
         var pasteAction = new TestAction("Paste");
-        pasteAction.putValue(Action.SMALL_ICON, new ImageIcon("paste.gif"));
+        pasteAction.putValue(Action.SMALL_ICON, new ImageIcon("C:\\Users\\user\\IdeaProjects\\JavaPodstawyWydanieXI\\src\\main\\java\\rozdzial10\\menu\\paste.jpg"));
 
         var editMenu = new JMenu("Edit");
         editMenu.add(cutAction);
