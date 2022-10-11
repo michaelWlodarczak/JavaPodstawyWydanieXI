@@ -15,7 +15,8 @@ public class UnsynchBankTest {
 
     public static void main(String[] args) {
 
-        var bank = new Bank(NACCOUNTS,INITIAL_BALANCE);
+        var bank = new Bank(NACCOUNTS,INITIAL_BALANCE); // new Bank from package threads
+        //var bank = new BankWithLock(NACCOUNTS,INITIAL_BALANCE); // zastosowana ochrona metody transfer za pomoca blokady
 
         for (int i = 0; i < NACCOUNTS; i++) {
             int fromAccount = i;
